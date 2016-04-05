@@ -1,0 +1,4 @@
+'.text.html.basic':
+  'css':
+    'prefix': 'css'
+    'body': '<link rel="stylesheet" type="text/css" href="/css/${1:style}.css" charset="utf-8">'
