@@ -1,4 +1,7 @@
 '.text.html.basic':
+  'js':
+    'prefix': 'js'
+    'body': '<script type="text/javascript" charset="utf-8" src="${1:index}.js"></script>'
   'css':
     'prefix': 'css'
     'body': '<link rel="stylesheet" type="text/css" href="/css/${1:style}.css" charset="utf-8">'
