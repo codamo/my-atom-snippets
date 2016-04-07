@@ -1,1 +1,8 @@
-#'.source.js':
+'.source.js':
+  'function':
+    'prefix':'function'
+    'body':"""
+function($1) {
+  $2
+};
+"""
