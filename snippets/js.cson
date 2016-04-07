@@ -6,3 +6,28 @@ function($1) {
   $2
 };
 """
+  'class(?)':
+    'prefix':'class(?)'
+    'body':"""
+var ${1:Class} = (function(){
+    //private variables
+    var valueB = "B";
+
+    //private method
+    function methodB() {
+      console.log("B");
+    }
+
+    //constructor
+    function Class(v){
+        //public variables
+        this.valueA = v;
+    }
+
+    //public method;
+    Class.prototype.methodA = function(){
+        console.log(this.valueA);
+    };
+    return Class;
+})();
+"""
